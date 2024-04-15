@@ -94,7 +94,8 @@ public class MyController {
 			model.addAttribute("user", user1);
 			
 			List<Entry> entries= null;
-			
+
+
 			try {
 				entries = entryInterface.findUserById(user1.getId());
 			} catch (Exception e) {
