@@ -1,0 +1,98 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.header{
+	width:100%;
+	height:40px;
+}
+
+.first{
+	padding-left: 10px;
+	width: 5%;
+	float: left;
+	padding-top: 10px;
+}
+
+.second{
+	width: 85%;
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 15px;
+}
+
+.bodypart{
+	width: 100%;
+	
+	text-align: center;
+}
+
+.leftpart{
+	width: 49%;
+	float: left;
+	
+	padding-top: 5%;
+	
+}
+
+.rightpart{
+	width: 50%;
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 2%;
+	
+	
+}
+
+.formcontrol{
+	width: 200px;
+	height: 40px;
+}
+
+.label{
+	font-size: 20;
+}
+
+button{
+	width: 200px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	font-size: 15px;
+}
+
+.body{
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.head{
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 20px;
+	color: orange;
+}
+.add{
+	padding-right: 20px;
+	color: white;
+	background-color: blue;
+	float: right;
+}
+
+table {
+	width: 98%;
+	margin: 0 auto;
+	
+}
+td {
+	padding: 8px;
+	text-align: left;
+}
