@@ -88,6 +88,7 @@ public class MyController {
 		User user1 = userInterface.findUserByUsername(user.getUsername());
 		
 		session.setAttribute("user", user1);
+
 		
 		if(user1!=null && user1.getPassword().equals(user.getPassword())) {
 			viewname ="userHomePage";
