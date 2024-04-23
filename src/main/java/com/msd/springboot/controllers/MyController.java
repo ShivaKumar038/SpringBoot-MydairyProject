@@ -69,10 +69,10 @@ public class MyController {
 		
 	}
 	
-	@PostMapping("saveUseruser") //this will taken from form action attribute where by clicking on register button this action will be performed
+	@PostMapping("/saveuser") //this will taken from form action attribute where by clicking on register button this action will be performed
 	public String saveUserUser(@ModelAttribute("user") User user) {  //modelAttribute user contains full fledged object info which will assigned to parametered user object
 		
-		String model = new String("saveUsersuccess");
+		String model = new String("savesuccess");
 				
 		userInterface.saveUser(user);
 		
@@ -88,6 +88,7 @@ public class MyController {
 		User user1 = userInterface.findUserByUsername(user.getUsername());
 		
 		session.setAttribute("user", user1);
+
 
 		
 		if(user1!=null && user1.getPassword().equals(user.getPassword())) {

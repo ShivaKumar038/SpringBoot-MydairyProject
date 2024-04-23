@@ -14,12 +14,12 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 	private String username;
-	private String password;
-	
+	private String password; 
+ 	
 	
 	public User() {
 		super();
-	}
+	} 
 	
 	public User(long id, String username, String password) {
 		super();

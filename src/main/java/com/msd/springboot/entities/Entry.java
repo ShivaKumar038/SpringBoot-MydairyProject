@@ -1,5 +1,5 @@
 package com.msd.springboot.entities;
-
+ 
 import java.util.Date;
 
 import org.springframework.format.annotation.DateTimeFormat;
