@@ -31,9 +31,14 @@
 		     <label>password</label> <input type="text" name="password" class="formcontrol"><br/><br/>
 		     <button type="submit">Login</button>
 		  </form>
+		  
+		  
 		
 		  <br/>
 		  New User? <a href="./register">Register</a> here
+		  
+		  
+		  <img src="<c:url value='/asses/img/pass.jpg' />" alt="Logo">
 		</div>
 	</div>
 </body>
